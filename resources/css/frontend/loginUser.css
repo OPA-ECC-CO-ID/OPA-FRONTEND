@@ -1,0 +1,330 @@
+/* Login */
+
+.entry {
+    background-color: #fcfcfc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-fluid-entry {
+    height: 100vh;
+    min-width: auto;
+    width: 25vw;
+    top: 0;
+    bottom: 0;
+    object-fit: cover;
+    position: sticky;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 428px) {
+    .img-fluid {
+        min-width: 0;
+        min-height: auto;
+    }
+    .hero-login {
+        margin: auto;
+        width: 100%;
+        max-width: 100vw;
+    }
+    .hero-login img {
+        width: 27%;
+    }
+    .hero-login h2 {
+        width: 100%;
+    }
+    .form-login {
+        margin: 0% 2vw;
+        width: 100%;
+        max-width: 100vw;
+    }
+}
+
+body {
+    font-family: "Poppins-Latin", sans-serif;
+    font-weight: 400;
+}
+
+.container-login {
+    height: 100%;
+    width: 470px;
+    max-width: 100vw;
+    padding: 2px;
+    flex-grow: 1;
+}
+
+.hero-login {
+    margin: 8% auto 5px;
+    padding-inline: 5vw;
+    width: 100%;
+    max-width: 100vw;
+    text-align: center;
+}
+
+.img-entry {
+    width: 32%;
+}
+
+@font-face {
+    font-family: "Poppins-Latin";
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2)
+        format("woff2");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Poppins-Latin";
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2)
+        format("woff2");
+    font-weight: 400;
+}
+
+.hero-login h2 {
+    font-family: "Poppins-Latin", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    align-items: center;
+    margin: 10px;
+    color: #121212;
+}
+
+.hero-login p {
+    font-family: "Poppins-Latin", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    color: #555555;
+}
+
+.form-login {
+    margin: 5% auto;
+    width: 100%;
+    max-width: 100vw;
+}
+
+.form-login .field {
+    margin-bottom: 0.75rem;
+}
+
+.form-login .input-field-login {
+    position: relative;
+    height: 45px;
+    width: 100%;
+    margin: 1.25rem auto;
+    padding: 2px;
+}
+
+.form-login .form-control {
+    padding: 20px 15px;
+}
+
+.input-field-login input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 0 15px;
+    border: 1px solid #d3d3d3;
+    transition: border-color 0.3s;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+}
+
+.input-field-login input:is(:focus, :valid) {
+    box-shadow: 0 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    outline: none;
+    border-color: #f9976a;
+}
+
+.invalid input {
+    border-color: #d93025;
+}
+
+.field.invalid input {
+    border-color: #d93025;
+}
+
+.field .error {
+    display: none;
+    align-items: center;
+    padding-left: 20px;
+    margin: -9px 0;
+    color: #d93025;
+    font-size: 14px;
+}
+
+.invalid .error {
+    display: flex;
+}
+
+.input-field-login .show-hide,
+.input-field-login .new-show-hide,
+.input-field-login .confirm-show-hide {
+    position: absolute;
+    right: -2px;
+    top: 56%;
+    transform: translateY(-50%);
+    color: #555555;
+    cursor: pointer;
+    padding: 0 1rem;
+}
+
+.form-login .form-check {
+    margin-bottom: 30px;
+}
+
+.checkbox-login {
+    margin-left: -10px;
+    column-gap: 8px;
+    white-space: nowrap;
+}
+
+.checkbox-login input {
+    height: 16px;
+    width: 16px;
+    accent-color: #ff603f;
+    cursor: pointer;
+}
+
+.checkbox-login label {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    user-select: none;
+    color: #555555;
+}
+
+.form-login a {
+    color: #ff863f;
+    text-decoration: none;
+}
+
+.button-login input {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #fafafa;
+    transition: all 0.3s ease;
+}
+
+.button-login input[disabled] {
+    background-color: #d2d2d2;
+}
+
+.line {
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 10% 0;
+    background-color: #f2f2f2;
+}
+
+.line::before {
+    content: "atau";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fcfcfc;
+    font-family: "Poppins-Latin", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #999999;
+}
+
+.logo {
+    margin: 2vw 0;
+}
+
+.logo a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.logo img {
+    width: 62px;
+    height: 62px;
+}
+
+.register {
+    margin: 0.5rem 0;
+    color: #555555;
+}
+
+.register a {
+    color: #f9976a;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Verify Email */
+@media screen and (max-width: 415px) and (max-height: 915px) {
+    .img-fluid {
+        min-width: 0;
+        min-height: auto;
+    }
+    .hero-email {
+        text-align: center;
+        margin: 0% 15vw;
+        width: 75%;
+        max-width: 80vw;
+    }
+    .hero-login img {
+        width: 27%;
+    }
+    .hero-email h2 {
+        margin: 10px 0;
+    }
+}
+
+.hero-email {
+    margin: 16% auto 5px;
+    width: 95%;
+    max-width: 100vw;
+    text-align: center;
+}
+
+.hero-email img {
+    width: 30%;
+}
+
+.hero-email h2 {
+    font-family: "Poppins-Latin", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    align-items: center;
+    margin: 10px 0;
+    color: #121212;
+}
+
+.hero-email p {
+    font-family: "Poppins-Latin", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    color: #555555;
+}
+
+.form .form-control-email {
+    padding: 20px 20px;
+}
+
+.text-email p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #999999;
+    text-align: start;
+    padding-inline: 6px 0;
+}

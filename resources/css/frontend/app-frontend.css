@@ -1,0 +1,9 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import "poppins-font";
+@import "aos/dist/aos.css";
+@import "@css/frontend/main.css";
+@import "@css/frontend/assesment.css";
+@import "@css/frontend/profile/profile.css";
+@import "@css/frontend/profile/result.css";
+@import "@css/frontend/custom-select2.css";

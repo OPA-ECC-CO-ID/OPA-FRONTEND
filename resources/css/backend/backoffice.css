@@ -1,0 +1,59 @@
+.nav-item-menu {
+    display: none;
+}
+a.nav-link-menu.active i {
+    color: white !important;
+}
+
+.nav-item-menu {
+    /* background-color: red; */
+    margin-left: 30px;
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+}
+
+.nav-item-menu li {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 14px;
+}
+
+.nav-item-menu li a.active {
+    color: #830866;
+}
+
+.action-table {
+    display: flex;
+}
+.action-table button {
+    outline: none;
+    border: none;
+}
+.action-table button i {
+    font-size: 15px;
+}
+
+.action-table button:not(:last-child) {
+    margin-right: 7px;
+}
+
+/* tabel Form Global*/
+.tabel-form-input th {
+    width: auto;
+    max-width: 135px;
+}
+
+.table-show-data th {
+    vertical-align: text-top;
+}
+
+/* Quill Js */
+.ql-editor {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px; /* Adjust the font size as needed */
+    color: #67748e; /* Set the font color to black */
+}
+
+.double-border-top {
+    border-top: 2px solid #3836363b; /* Adjust the width and color as needed */
+}

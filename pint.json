@@ -1,0 +1,34 @@
+{
+    "preset": "psr12",
+    "rules": {
+        "explicit_string_variable": true,
+        "whitespace_after_comma_in_array": {
+            "ensure_single_space": true
+        },
+        "no_empty_comment": true,
+        "trim_array_spaces": true,
+        "@PHP82Migration": true,
+        "single_line_comment_style": true,
+        "array_indentation": true,
+        "no_extra_blank_lines": true,
+        "no_singleline_whitespace_before_semicolons": true,
+        "align_multiline_comment": true,
+        "concat_space": { "spacing": "one" },
+        "array_syntax": { "syntax": "short" },
+        "cast_spaces": true,
+        "include": false,
+        "no_unneeded_control_parentheses": true,
+        "function_typehint_space": true,
+        "single_space_after_construct": true,
+        "clean_namespace": true,
+        "no_leading_namespace_whitespace": true,
+        "binary_operator_spaces": true,
+        "object_operator_without_whitespace": true,
+        "operator_linebreak": { "only_booleans": true },
+        "standardize_not_equals": true,
+        "no_spaces_around_offset": true,
+        "method_chaining_indentation": true,
+        "no_trailing_comma_in_singleline_array": true,
+        "trim_array_spaces": true
+    }
+}

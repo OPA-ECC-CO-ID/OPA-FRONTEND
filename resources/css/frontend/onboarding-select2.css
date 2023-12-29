@@ -1,0 +1,152 @@
+body .select2-selection--single .select2-selection__rendered {
+    text-align: start !important;
+}
+body .select2-selection--single .select2-selection--multiple .select2-results__option {
+    font-family: "Poppins-Latin", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.select2-selection__arrow {
+    display: none !important;
+}
+.select2-style .select2-selection__arrow {
+    height: 22px !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 515px !important;
+    transform: translateY(-50%);
+    width: 30px !important;
+}
+.select2-style.select2-container--open .select2-selection__arrow {
+    transform: translateY(-50%) rotate(180deg);
+}
+.select2-dropdown {
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2);
+    overflow-y: hidden !important;
+    margin-top: -5px;
+}
+.select2-selection {
+    height: relative !important;
+    border-radius: 8px !important;
+    padding: 10px 20px 15px 12px !important;
+    font-size: 12px;
+    line-height: 150%;
+}
+.select2-results ul li:hover {
+    background-color: #0f3f76 !important;
+}
+.select2-container--default
+    .select2-results__option--highlighted.select2-results__option--selectable {
+    background-color: #0f3f76;
+    color: white;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border: 1px solid #dee2e6;
+}
+.select2-container--default.select2-container--focus
+    .select2-selection--multiple {
+    border: 1px solid var(--main-50, #0f3f76) !important;
+    outline: 0;
+}
+.select2-container--default
+    .select2-selection--multiple
+    .select2-selection__choice {
+    background: var(--primary-50, #0f3f76) !important;
+    color: #fff !important;
+    border: none !important;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 8px 10px 8px 10px !important;
+    padding-left: 20px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    text-align: start;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+    white-space: nowrap;
+    border-radius: 8px;
+}
+.select2-container--default
+    .select2-selection--multiple
+    .select2-selection__choice__remove {
+    color: transparent;
+    border: none;
+}
+.select2-container--default
+    .select2-selection--multiple
+    .select2-selection__choice__remove:hover {
+    color: transparent;
+    background-color: transparent;
+}
+.custom-select-container {
+    position: relative;
+}
+.custom-select-container select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: transparent;
+    padding-right: 30px;
+}
+.custom-select-container i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+.select2-selection--multiple .select2-selection__choice::after {
+    content: "x";
+    color: #fff;
+    cursor: pointer;
+    margin-left: 8px;
+}
+.select2-search__field {
+    caret-color: transparent !important;
+}
+.select2-selection .select2-selection--multiple {
+    height: auto !important;
+    min-height: 50px !important;
+}
+.select2-selection--multiple ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.select2-selection--multiple li {
+    list-style: none;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+.select2-container .select2-selection--single {
+    height: 50px !important;
+    width: 550px;
+}
+.select2-container--default .select2-selection--multiple {
+    width: 550px;
+    text-align: start !important;
+}
+.select2-container--default .select2-dropdown {
+    width: 200px;
+}
+.select2-container--default .select2-selection--single {
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.select2-container--default .select2-selection--multiple {
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}

@@ -1,0 +1,3 @@
+import '@/app'
+
+alert('hi! ')

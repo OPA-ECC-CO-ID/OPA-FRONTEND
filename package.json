@@ -1,0 +1,31 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@rollup/plugin-inject": "^5.0.3",
+        "axios": "^1.1.2",
+        "bootstrap": "^5.2.3",
+        "laravel-vite-plugin": "^0.8.0",
+        "vite": "^4.5.0"
+    },
+    "dependencies": {
+        "aos": "^3.0.0-beta.6",
+        "bootstrap-icons": "^1.11.1",
+        "datatables.net": "^1.13.7",
+        "datatables.net-dt": "^1.13.6",
+        "glob": "^10.3.4",
+        "jquery": "^3.7.1",
+        "js-cookie": "^3.0.5",
+        "moment-timezone": "^0.5.43",
+        "perfect-scrollbar": "^1.5.5",
+        "poppins-font": "^1.0.1",
+        "quill": "^1.3.6",
+        "select2": "^4.1.0-rc.0",
+        "sweetalert2": "^11.7.31",
+        "vite-plugin-commonjs": "^0.9.0"
+    }
+}
