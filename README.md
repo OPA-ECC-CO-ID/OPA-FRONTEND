@@ -1,4 +1,5 @@
 # Online Personal Assessment (OPA) (https://opaecc.ecc.co.id)
+![Frame 7](https://github.com/IzzaWildanRidhoni/OPA-FRONTEND/assets/49296863/c7753544-7e4f-491c-90ce-b70af79913e6)
 
 ## Tentang OPA
 
