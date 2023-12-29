@@ -3,7 +3,8 @@
 
 ## Tentang OPA
 
-UI UX : https://www.figma.com/file/AOb0LJbLZtSPPzrznKsWAp/ECC-UIX-DESIGN?type=design&node-id=0-1&mode=design&t=Uh8CVmidfcD3tm6y-0
+Desain UI UX : 
+https://www.figma.com/file/AOb0LJbLZtSPPzrznKsWAp/ECC-UIX-DESIGN?type=design&node-id=0-1&mode=design&t=Uh8CVmidfcD3tm6y-0
 
 Online Personal Assessment dapat membantu menemukan potensi terpendam yang ada padamu!. OPA terdiri dari 4 test yaitu
 
