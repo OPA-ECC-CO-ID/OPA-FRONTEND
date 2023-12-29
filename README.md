@@ -2,6 +2,8 @@
 ![Frame 7](https://github.com/IzzaWildanRidhoni/OPA-FRONTEND/assets/49296863/c7753544-7e4f-491c-90ce-b70af79913e6)
 
 ## Tentang OPA
+Task Magang OPA :
+https://docs.google.com/spreadsheets/d/1EckL_vurUahiQQ14bSFk-SBhI5u_scdAAp5Imm0PYo0/edit?usp=sharing
 
 Desain UI UX : 
 https://www.figma.com/file/AOb0LJbLZtSPPzrznKsWAp/ECC-UIX-DESIGN?type=design&node-id=0-1&mode=design&t=Uh8CVmidfcD3tm6y-0
